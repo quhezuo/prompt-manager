@@ -19,9 +19,3 @@ export default defineConfig({
     }
   }
 })
-
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/prompt-manager/'  // 这里替换成你的仓库名称
-    : '/',
-}
